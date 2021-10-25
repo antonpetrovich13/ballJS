@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+	<style>
+		#field {
+			position: relative;
+			width: 200px;
+			height: 150px;
+			border: 10px solid black;
+			background-color: #00FF00;
+			overflow: hidden;
+			cursor: pointer;
+		}
+
+		#ball {
+			top: 0;
+			left: 0;
+			position: absolute;
+			transition: all 0.3s ease 0s;
+		}
+	</style>
+</head>
+
+<body style="height:2000px">
+
+	Нажмите на поле для перемещения мяча.
+	<br> Мяч не должен выходить за границы поля.
+
+
+	<div id="field">
+		<img src="https://ru.js.cx/clipart/ball.svg" id="ball"> . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+		. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+		. . . . . . . . . . .
+		. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+		. . . . . . . . . . . . . . . . . . . . . . .
+	</div>
+
+
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>
